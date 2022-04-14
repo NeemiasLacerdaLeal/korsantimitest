@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Pirata+One&display=swap');
+
+
+body {
+    font-size: 100%;
+    background-image: url(/components/img/FIGHTSHIP2.png) ;
+        
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.header-logo {
+    height: 80px;
+    position: relative;
+    left: -30px;
+}
+
+.header-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.header-menu-download{
+    font-family: 'Germania One', cursive;
+    color: rgb(41, 45 , 49);
+    font-weight: 400;
+    font-size: 23px;
+    text-shadow: rgb(255, 255, 255) 0.1em 0.1em  0.2em;
+    user-select: none;
+}
+
+.header-menu-download:hover {
+    color: brown;
+    transition: 0.3s all;
+
+}
+
+.header-menu-discord{
+    font-family: 'Germania One', cursive;
+    color: rgb(41, 45 , 49);
+    font-weight: 400;
+    font-size: 23px;
+    text-shadow: rgb(255, 255, 255) 0.1em 0.1em  0.2em;
+    user-select: none;
+}
+
+.header-menu-discord:hover {
+    color: brown;
+    transition: 0.3s all;
+
+}
+
+.header-menu-blog{
+    font-family: 'Germania One', cursive;
+    color: rgba(41, 45 , 49);
+    font-weight: 400;
+    font-size: 23px;
+    text-shadow: rgb(255, 255, 255) 0.1em 0.1em  0.1em;
+    user-select: none;
+}
+
+.header-menu-blog:hover {
+    color: brown;
+    transition: 0.3s all;
+
+}
+
+.content {
+    margin-bottom: 48px;
+    border-top: 0.4px solid rgba(221, 233, 255, 0.103);
+}
+
+.content-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-principal-oldpaper{
+    width: 491px;
+    height: 700px;
+    background: url(/components/img/papertext.png);
+    
+
+}
+.content-principal-text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content-principal-text-title {
+    font-family: 'Pirata One', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgb(41, 45, 49);
+    position: absolute;
+    left: 286px;
+    top: 280px;
+    max-width: 400px;
+    text-shadow: black 0.1em 0.1em  0.2em;
+    user-select: none;
+}
+
+.content-principal-text-subtitle {
+    font-family: 'Germania One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(207, 240, 245);
+    position: absolute;
+    max-width: 270px;
+    left: 290px;
+    bottom: 400px;
+    text-shadow: black 0.1em 0.1em  0.2em;
+    user-select: none;
+}
+
+.content-principal-text-imgbtn {
+    position: absolute;
+    width: 260px;
+    left: 292px;
+    bottom: 280px;
+    user-select: none;
+}
+
+.content-principal-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-principal-right-news{
+    font-family: 'Germania One', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(41, 45, 49);
+    text-shadow: rgb(112, 112, 112) 0.1em 0.1em  0.2em;
+    user-select: none;
+}
+
+.content-principal-right-face {
+    box-shadow: 5px 5px 5px black;
+    border: #fcdceb;
+    border-radius: 20px;
+    
+}
+
+.content-principal-right-video {
+    font-family: 'Germania One', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(41, 45, 49);
+    text-shadow: rgb(112, 112, 112) 0.1em 0.1em  0.2em;
+    user-select: none;
+    
+}
+
+.content-principal-right-cmvideo{
+    box-shadow: 5px 5px 5px black;
+    border: #fcdceb;
+    border-radius: 30px;
+    
+
+}
+
+
+.footer {
+    padding: 32px;
+    border-top: 0.4px solid rgba(221, 233, 255, 0.103);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(41, 40, 39);
+    padding-top: 10px;
+}
+
+.footer-kt {
+    height: 48px;
+    align-items: center;
+    font-family: 'Germania One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: black 0.1em 0.1em  0.2em;
+    user-select: none;
+
+}
+
+.footer-dbc {
+    user-select: none;
+}

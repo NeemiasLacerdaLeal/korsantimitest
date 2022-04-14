@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'jack-pirate';
+    src: url(/components/fonts/JackPirate_PERSONAL_USE_ONLY.ttf) format('woff2'),
+         url(/components/fonts/JackPirate_PERSONAL_USE_ONLY.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;        
+}
+ @font-face {
+    font-family: 'jack-pirate-alt';
+    src: url(/components/fonts/JackPirateAlt_PERSONAL_USE_ONLY.ttf) format('woff2'),
+         url(/components/fonts/JackPirateAlt_PERSONAL_USE_ONLY.ttf) format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+ @font-face {
+    font-family: 'Strenous-cast';
+    src: url(/components/fonts/strenuous\ cast.otf) format('woff2'),
+         url(/components/fonts/strenuous\ cast.otf) format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
